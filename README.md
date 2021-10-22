@@ -25,6 +25,8 @@ GET /api/transaction/balances
 
 POST to /api/transaction/spend
 
+If there are not enough points to spend, no results are returned.
+
 ### Get all transactions
 
 This is useful for debugging.
